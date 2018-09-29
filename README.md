@@ -33,12 +33,18 @@ rpcuser=multichainrpc
 rpcpassword=j3536YzAeJMXRZXLkt94bqmeWYWaKGNjETtDwAN2w6T
 ```
 
-Check information by `multichain-cli`
+Get information by `multichain-cli`
 ```
 multichain-cli chain1 getinfo
 ```
 
-Send JSON RPC to the multichain
+Send JSON RPC to the multichain from my local machine by postman
+
+* Put `rpcuser` and `rpcpassword` to Basic Auth
+![auth](https://user-images.githubusercontent.com/8428372/46090268-5279f600-c1eb-11e8-99ef-1494b9f77653.png)
+
+* Request body in JSON format
+![body](https://user-images.githubusercontent.com/8428372/46090269-5279f600-c1eb-11e8-95a9-4f23698a242b.png)
 
 
 Restart a chain
